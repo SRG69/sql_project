@@ -25,7 +25,7 @@ Write a query that returns one city that has the highest sum of invoice totals.
 Return both the city name & sum of all invoice totals */
 
 SELECT 
-	-- billing_country,
+	 billing_country,
 	 billing_city,
     ROUND(SUM(total),2)total_invoces
 FROM 
